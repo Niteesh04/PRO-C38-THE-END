@@ -85,6 +85,7 @@ function draw() {
   spawnObstacles();
      if(obstaclesGroup.isTouching(trex)){
       gameState = END;
+       console.log("Game Over");
     }
   }
    else if(gameState === END) {
